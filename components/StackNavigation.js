@@ -11,12 +11,12 @@ const navigationOptions = {
 };
 
 const StackNavigator = createStackNavigator({
-        Search: {
-            screen: Search,
-            navigationOptions
-        },
         Result: {
             screen: SearchResult,
+            navigationOptions
+        },
+        Search: {
+            screen: Search,
             navigationOptions
         },
     },
